@@ -7,9 +7,9 @@ import PageHeading from '../components/PageHeading';
 const ContactsPage = () => {
   return (
     <>
-      <section id="contacts" className="w-full">
+      <section id="contacts" className="w-full min-h-[calc(100dvh-330px)]">
         <PageHeading title="Get In Touch" imgSrc={contacts} />
-        <div className="max-w-[800px] px-10 my-20 mx-auto">
+        <div className="max-w-[800px]  px-10 my-20 mx-auto">
           <div className="flex flex-col sm:grid sm:grid-rows-2 gap-20 justify-center ml-4 sm:ml-0">
             <div className="flex flex-col sm:grid sm:grid-cols-2 gap-20">
               <div className="flex flex-col">
