@@ -1,6 +1,6 @@
-import { heroBg, suit } from '../assets';
+import { heroBg } from '../assets';
 import Button from './Button';
-import { RiArrowRightUpLine } from 'react-icons/ri';
+import { FaMagnifyingGlass } from 'react-icons/fa6';
 
 const Hero = () => {
   return (
@@ -22,20 +22,20 @@ const Hero = () => {
                 perferendis accusamus ut nostrum.
               </h2>
               <div className="flex flex-wrap gap-5 mt-10 w-full text-xl">
-                <Button className={`gap-2 w-[200px]`} path={`/contacts`}>
-                  Contact Me <RiArrowRightUpLine />
+                <Button className={`gap-2 text-nowrap`} path={`/find`}>
+                  Find Property <FaMagnifyingGlass />
                 </Button>
                 <Button className={`hidden md:block`}>
                   Recent Transactions
                 </Button>
               </div>
             </div>
-            <img
+            {/* <img
               src={suit}
               alt="Jack Liu Portrait"
               width={300}
               className="rounded-[25%] mt-5 md:mt-0"
-            />
+            /> */}
           </div>
         </div>
       </div>

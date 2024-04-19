@@ -28,7 +28,7 @@ const Dropdown = ({ title }) => {
           </div>
         </NavLink>
         {isOpen && (
-          <div className="origin-top-left absolute left-0 mt-2 w-[15rem] p-2 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+          <div className="origin-top-left absolute left-0 mt-2 w-[15rem] p-2 pr-5 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
             <ul
               role="menu"
               aria-orientation="vertical"
@@ -49,7 +49,16 @@ const Dropdown = ({ title }) => {
                   className="block px-4 py-2 text-sm text-gray-700 hover:text-green-600"
                   onClick={closeDropdown}
                 >
-                  Home Valuation
+                  Investment Calculator
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/tools/#homeValuation"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:text-green-600"
+                  onClick={closeDropdown}
+                >
+                  More to come...
                 </Link>
               </li>
             </ul>
