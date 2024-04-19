@@ -4,5 +4,13 @@ import suit from './images/suit.jpg';
 import contacts from './images/contacts.jpg';
 import plainTwinOaksLogo from './images/twins-oaks-logo.png';
 import calculation from './images/calculation.jpg';
-
-export { twinOaksLogo, heroBg, suit, contacts, plainTwinOaksLogo, calculation };
+import house from './images/house.jpg';
+export {
+  twinOaksLogo,
+  heroBg,
+  suit,
+  contacts,
+  plainTwinOaksLogo,
+  calculation,
+  house,
+};

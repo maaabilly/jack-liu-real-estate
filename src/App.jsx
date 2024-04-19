@@ -10,12 +10,14 @@ import HomePage from './pages/HomePage';
 import Tools from './pages/ToolsPage';
 import ContactsPage from './pages/ContactsPage';
 import NotFoundPage from './pages/NotFoundPage';
+import ValuationPage from './pages/ValuationPage';
 
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
+        <Route path="/valuation" element={<ValuationPage />} />
         <Route path="/tools" element={<Tools />} />
         <Route path="/contacts" element={<ContactsPage />} />
         <Route path="/*" element={<NotFoundPage />} />
