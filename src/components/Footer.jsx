@@ -10,7 +10,7 @@ const Footer = ({ className = '' }) => {
       <div className="bg-black text-white">
         <div className="max-w-[1240px] mx-auto py-3 px-10 bg-black text-white">
           <div className="grid md:grid-cols-3 justify-center items-center gap-3">
-            <FooterLogo className={`hidden md:block`}/>
+            <FooterLogo className={`hidden md:flex`}/>
             <img
               src={plainTwinOaksLogo}
               alt="twin oaks logo"

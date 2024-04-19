@@ -19,8 +19,8 @@ const Dropdown = ({ title }) => {
         <NavLink
           to={`/tools`}
           type="button"
-          className=""
           onMouseEnter={toggleDropdown}
+          onClick={closeDropdown}
         >
           <div className="flex justify-center items-center gap-1">
             {title}

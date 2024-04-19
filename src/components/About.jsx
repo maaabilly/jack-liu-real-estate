@@ -27,7 +27,7 @@ const About = () => {
               consequatur placeat ipsum, earum sed obcaecati accusantium? Eius
               amet deleniti autem nobis soluta at saepe minus!
             </p>
-            <Button className="text-xl">Find Property</Button>
+            <Button className="text-xl">Recent Transactions</Button>
           </div>
         </div>
       </div>
